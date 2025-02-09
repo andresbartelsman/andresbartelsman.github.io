@@ -23,10 +23,12 @@
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 15px;
         }
+        .gallery a {
+            display: block;
+        }
         .gallery img {
             width: 100%;
             height: auto;
-            border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease;
         }
@@ -40,11 +42,11 @@
         <h1>My Portfolio</h1>
         <p>Showcasing my best work</p>
         <div class="gallery">
-            <img src="images/andes.JPG" alt="Project 1">
-            <img src="images/cordillera2.jpg" alt="Project 2">
-            <img src="images/dickson.jpg" alt="Project 3">
-            <img src="images/ladertiag5.jpg" alt="Project 4">
-            <img src="images/orangelight.JPG" alt="Project 5">
+            <a href="images/andes.JPG" target="_blank"><img src="image1.jpg" alt="Project 1"></a>
+            <a href="images/cordillera2.jpg" target="_blank"><img src="image2.jpg" alt="Project 2"></a>
+            <a href="images/dickson.jpg" target="_blank"><img src="image3.jpg" alt="Project 3"></a>
+            <a href="images/ladertiag5.jpg" target="_blank"><img src="image4.jpg" alt="Project 4"></a>
+            <a href="images/orangelight.JPG" target="_blank"><img src="image5.jpg" alt="Project 5"></a>
         </div>
     </div>
 </body>
