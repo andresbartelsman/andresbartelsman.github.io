@@ -1,66 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <style>
-    h1 { color: black; }
-    p { color: black; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
-
-<style>
-body {
-  background-image: url('https://kleinberry.com/images/andes.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-</style>
-
-<style>
-a:link {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: black;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-</style>
-
-
-
-
-
+<body>
+    <div class="container">
+        <h1>My Portfolio</h1>
+        <p>Showcasing my best work</p>
+        <div class="gallery">
+            <img src="images/andes.JPG" alt="Project 1">
+            <img src="images/cordillera2.jpg" alt="Project 2">
+            <img src="images/dickson.jpg" alt="Project 3">
+            <img src="images/ladertiag5.jpg" alt="Project 4">
+            <img src="images/orangelight.JPG" alt="Project 5">
+        </div>
+    </div>
 </body>
-  <h1 style = "font-family:Helvetica;font-size:20px;font-style:regular">KLEINBERRY</h1>
-  <p style = "font-family:Helvetica;font-size:10px;font-style:regular;"> 
-    <br>Andrés Bartelsman / Architect
-    <br>Born on July 15th, 1989 in Santiago de Chile
-    <br>Living and working in Barcelona
-    <br>Contact: andresbartelsman@gmail.com
-    <br><a href=https://www.linkedin.com/in/andr%C3%A9s-bartelsman/>LinkedIn</a>
-    
-    
-   
-      </p>
-</body>
-
-
-
-
+</html>
 
 
 
