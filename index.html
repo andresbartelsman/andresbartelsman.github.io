@@ -11,20 +11,21 @@
             margin: 0;
             padding: 0;
             background: #f4f4f4;
-            text-align: center;
         }
         .container {
             max-width: 1200px;
             margin: auto;
             padding: 20px;
         }
+        .header {
+            text-align: left;
+            padding: 20px;
+        }
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 15px;
-        }
-        .gallery a {
-            display: block;
+            text-align: center;
         }
         .gallery img {
             width: 100%;
@@ -39,14 +40,16 @@
 </head>
 <body>
     <div class="container">
-        <h1>My Portfolio</h1>
-        <p>Showcasing my best work</p>
+        <div class="header">
+            <h1>Andy Bartelsman</h1>
+            <p>Welcomee</p>
+        </div>
         <div class="gallery">
-            <a href="images/andes.JPG" target="_blank"><img src="images/andes.JPG"></a>
-            <a href="images/cordillera2.jpg" target="_blank"><img src="images/cordillera2.jpg"></a>
-            <a href="images/dickson.jpg" target="_blank"><img src="images/dickson.jpg"></a>
-            <a href="images/ladertiag5.jpg" target="_blank"><img src="images/ladertiag5.jpg"></a>
-            <a href="images/orangelight.JPG" target="_blank"><img src="images/orangelight.JPG"></a>
+            <img src="images/00 Arbsea.jpg" alt="Project 1">
+            <img src="images/rwanda.jpg" alt="Project 2">
+            <img src="images/williamsburg.JPG" alt="Project 3">
+            <img src="images/01 Bamblibel.jpg" alt="Project 4">
+            <img src="images/02 Cabalango.jpg" alt="Project 5">
         </div>
     </div>
 </body>
